@@ -1,0 +1,93 @@
+/*-----------푸터------------*/
+
+    #footerWrap { 
+        width : 1200px;
+        height : 150px;
+        margin : 0 auto;
+        display: flex;
+    }
+        #footerLogo {
+            width : 300px;
+            height : 150px;
+            text-align: center;
+        }
+        #footerLogo>a {
+            line-height: 150px;
+            font-family: 'Parisienne', cursive;
+            font-size : 2.5em;
+            /* color: #A64A4A; */
+            color : #A64A4A;
+        }
+        #footerDesc {
+            width : 900px;
+            height : 150px;
+            font-family: 'PT Serif', serif;
+            margin-left : 50px;
+        }
+            #footerDesc-top {
+                width : 900px;
+                height : 120px;
+                padding-top : 30px;
+                /* font-size : 0.7em; */
+            }
+            .contact {
+                display: flex;
+                padding-top: 5px;
+            }
+            .wrapper {
+                display : flex;
+                width : 900px;
+                font-size : 0.7em;
+            }
+                #footer-desc1 {
+                    width : 200px;
+                }
+                    #footer-tel {
+                        font-size: 1.2em;
+                        color :#dd7d3c;
+                        font-weight: bolder;
+                        position : relative;
+                    }
+                    #footer-tel img {
+                        position : absolute;
+                        width : 20%;
+                        left : 50px;
+                        top : 18px;
+                        display: flex;
+                    }
+            .wrapper div {
+                margin-left : 10px;
+                float : left;
+            }
+                .contactDiv1 {
+                    font-size: 0.9em;
+                    width : 500px;
+                    line-height: 1.6;
+                }
+                #footer-desc3 {
+                    width : 200px;
+                    display : flex;
+                }
+                #footer-desc3 img {
+                    width : 60%;
+                }
+            .wrapper img {
+                width : 30%;
+                padding : 0 5px;
+                margin : 0 10px;
+            }
+            #footer-desc3 img:hover {
+                width : 60.9%;
+            }
+            #footerUl {
+                /* font-family: Marcellus SC, serif;
+                font-size: 0.8em; */
+                line-height: 30px;
+                margin-left : 20px;
+            }
+            #footerDesc-bottom {
+                width : 900px;
+                height : 30px;
+                /* background-color:rgb(239, 179, 179); */
+                font-size: 0.7em;
+            }

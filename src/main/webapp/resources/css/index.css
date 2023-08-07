@@ -1,0 +1,111 @@
+
+/*-----------메인------------*/
+/* main {
+    width : 1500px;
+    height : 1900px;
+    /* background-color: aquamarine; */
+/* } */ 
+    #mainMain {
+        width : 1500px;
+        height : 1900px;
+        /* background-color: tan; */
+    }
+        #imgSlide {
+            width : 1500px;
+            height : 1300px;
+            /* position : absolute; */
+        }
+            #imgSlide > img {
+                width : 1500px;
+                float : left;
+            }
+            .fade {
+                animation-name : fade;
+                animation-duration: 3s;
+            }
+            @keyframes fade {
+                from {
+                    opacity : .2;
+                }
+                to {
+                    opacity : 1;
+                }
+            }
+        #mainProductImg {
+            width : 1500px;
+            height : 600px;
+            /* background-color: skyblue; */
+            
+        }
+        #productImgList {
+            width : 1500px;
+            height: 600px;
+            /* background-color: forestgreen; */
+            display: flex;
+            position: relative;
+        }
+            .productList {
+                width : 375px;
+                /* background-color: bisque; */
+                /* display: flex; */
+                position : relative;
+            }
+            .productList img {
+                display : block;
+                margin : auto;
+                width : 280px;
+                
+            }
+            .productList a {
+                position : relative;
+            }
+                .productList .wrapImg {
+                    width: 280px;
+                    height : 373.8px;
+                    position : absolute;
+                    left : 47.5px; top: 0;
+                }
+                .wrapImg span{
+                    color : black;
+                    background-color: #de9564c4;
+                    width: 70px;
+                    height : 30px;
+                    font-family: Marcellus SC, serif;
+                    font-size : 1em;
+                    padding : 1.5px 10px;
+                }
+                .productName {
+                    width : 280px;
+                    height : 30px;
+                    margin : auto;
+                    /* background-color: antiquewhite; */
+                }
+                .productName a {
+                    display: block;
+                    text-align: right;
+                    font-family: 'PT Serif', serif;
+                    font-size :1em;
+                }
+                .productPrice {
+                    text-align : right;
+                    width : 280px;
+                    height : 20px;
+                    margin : auto;
+                    /* background-color: aquamarine; */
+                    font-family: 'PT Serif', serif;
+                    font-size : 0.9em;
+                }
+            .wrapImg:hover {
+                background-color: #ffffff67;
+            }
+            p > img:hover {
+                background-color : rgba(255, 255, 255, 0.459);
+            }
+            
+/*-----------푸터------------*/
+/* footer {
+    width : 1500px;
+    height : 150px;
+    border-top : 1px solid #de9564
+    /* background-color: slategray; */
+/* }  */

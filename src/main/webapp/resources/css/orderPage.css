@@ -1,0 +1,216 @@
+main {
+    width : 1500px;
+    height : 2200px;
+}
+#mainWrap{
+    width : 1200px;
+    height : 2100px;
+    margin : 0 auto;
+    margin-top : 50px;
+    /* background-color: antiquewhite; */
+    font-family : 'PT Serif', 'Noto Serif KR', serif;
+}
+#orderTop {
+    width : 1000px;
+    height : 350px;
+    margin : 0 auto;
+    /* background-color: lightcoral; */
+    margin-bottom : 70px;
+}
+    #orderTitle, #shipTitle, #orderBtmTitle{
+        margin : 0 auto;
+        margin-bottom : 10px;
+        width : 1000px;
+        height : 50px;
+        font-size : 1em;
+        text-align: center;
+        line-height : 3.5;
+        border-bottom: 1px solid #222;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+        #orderList {
+            width : 1000px;
+            height : 180px;
+            margin : 0 auto;
+        }
+            table {
+                width : 800px;
+                height : 180px;
+                margin : 0 auto;
+            }
+            td {
+                width : 1000px;
+                height : 150px;
+                border-bottom : 1px solid black;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                font-size : 17px;
+            }
+            input[type="checkbox"], input[type="radio"] {
+                width : 12px;
+                height : 12px;
+                margin-right : 10px;
+                margin-left : 10px;
+                appearance: none;
+                border : 1px solid #de9564;
+                transition : 0.7s ease;
+            }
+            input[type="checkbox"]:checked, input[type="radio"]:checked {
+                background: #de9564;
+                border: none;
+                transition : 0.7s ease;
+            }
+            #orderCheckBox {
+                color : #7a7979;
+            }
+            td img {
+                width : 80px;
+                
+            }
+            #orderPrice {
+                width : 1000px;
+                height : 50px;
+                margin : 0 auto;
+                text-align: center;
+                font-size : 0.9em;
+                border-bottom: 1px solid #222;
+            }
+            #orderBtns {
+                width : 600px;
+                height : 50px;
+                margin : 0 auto;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            button, #orderSubmit {
+                margin-top : 50px;
+                border-radius: 30px;
+                width : 400px;
+                height : 50px;
+                border : 1px solid #de9564;
+                background-color: white;
+                font-family: 'Noto Sans KR', sans-serif;
+                font-size : 1em;
+
+            }
+            button:hover, #orderSubmit:hover {
+                background-color: #de9564;
+                color : white;
+                transition: 0.5s ease;
+            } 
+#orderMid {
+    margin-top : 100px;
+    width : 1000px;
+    height : 1100px;
+    margin : 0 auto;
+    /* background-color: lightblue; */
+}
+    #shipTitle {
+        margin-bottom : 50px;
+    }
+    #shipInfo {
+        margin-top : 50px;
+        width : 700px;
+        height : 1000px;
+        margin : 0 auto;
+        /* background-color: darkgray; */
+    }
+    #orderForm {
+        width : 700px;
+        height : 1500px;
+        /* background-color: aquamarine; */
+        font-family: 'PT serif','Noto Sans KR', serif;
+    }
+    .order-form-div {
+        margin-bottom : 50px;
+    }
+    .order-form-field {
+        width : 700px;
+        height : 30px;
+        border : 0;
+        border-bottom: 1px solid #222;
+        line-height : 1;
+        outline : none;
+        font-size : 18px;
+        margin : 20px 0;
+    }
+    #user-post {
+        width : 200px;
+    }
+    #user-tel1 {
+        width : 100px;
+    }
+    #user-tel2 {
+        width : 575px;
+    }
+    #order-form-btn1 {
+        width : 150px;
+        height : 30px;
+        border : 1px solid #de9564;
+        /* border-radius: 25px; */
+        background-color: #de9564;
+        color : white;
+        padding : 15px 25px;
+        font-size: 15px;
+        line-height : 5px;
+        margin-left : 10px;
+        outline: none;
+        border-radius: 10px;
+        font-family: 'Noto Sans KR', sans-serif;
+    }
+    #order-form-btn1:hover {
+        opacity: .7;
+    }
+    /* .order-form-price {
+        border : 1px solid #222;
+        height : 60px;
+    } */
+    #coin {
+        width : 670px;
+        height : 30px;
+        /* border : none; */
+        text-align: right;
+    }
+    #pay {
+        margin-bottom : 25px;
+    }
+    #paySelect {
+        width : 630px;
+        margin: 0 auto;
+        text-align: right;
+    }
+#orderBtm {
+    width : 1000px;
+    height : 200px;
+    margin : 0 auto;
+    margin-top : 50px;
+    /* background-color: lemonchiffon; */
+    /* display: flex;
+    justify-content: center; */
+}
+    .orderBtm-div {
+        border-bottom: 1px solid #222;
+        width : 700px;
+        height : 60px;
+        margin : 0 auto;
+        display : flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+.orderBtm-last {
+    width : 1000px;
+    display: flex;
+    justify-content: center;
+}
+.orderBtm-last button {
+    margin-top : 50px;
+    width : 400px;
+    height : 50px;
+    font-size : 1em;
+    font-family : 'Noto Sans KR', sans-serif;
+    display :flex;
+    justify-content: center;
+    align-items: center;
+}

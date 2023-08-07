@@ -1,0 +1,342 @@
+/*-----------메인------------*/
+/* main {
+    width : 1500px;
+    height : 2200px;
+} */ 
+main {
+    width : 1500px;
+    height : 4700px;
+    /* background-color: antiquewhite; */
+}
+
+#mainWrap {
+    width : 1300px;
+    height : 4600px;
+    /* background-color: coral; */
+    margin : 0 auto;
+    margin-top : 100px;
+}
+    #shopTop {
+        width : 1100px;
+        height : 600px;
+        /* background-color: wheat; */
+        margin : 0 auto;
+        display: flex;
+    }
+        .shopTopBox {
+            width : 550px;
+            height : 600px;
+            /* background-color: lightblue; */
+        }
+            .product-details {
+                width : 550px;
+                /* background-color: lightgoldenrodyellow; */
+                display: flex;
+                justify-content: space-around;
+            }
+            .product-details img {
+                width : 500px;
+                max-height: 600px;
+                padding : 20px;
+                
+            }
+            #shopTopInfo {
+                padding : 20px;
+            }
+            #infoTitle {
+                height : 400px;
+                /* background-color: antiquewhite; */
+                font-family: 'PT Serif','Noto Serif KR', serif;
+            }
+                #infoTitle p {
+                    line-height : 3;
+                }
+                .product-name {
+                    font-size : 20px;
+                    line-height: 3;
+                }
+                .product-price {
+                    color : #6a6868;
+                    line-height : 3;
+                }
+                .product-ship {
+                    font-size : 14px;
+                    margin : 0px 30px 30px 0px;
+                }
+                .product-color {
+                    margin-top : 50px;
+                    font-weight: 40;
+                }
+                #productColor {
+                    border : 1px solid #ccc;
+                    outline : none;
+                    width : 150px;
+                    height : 40px;
+                    appearance: none;
+                    font-weight: lighter;
+                    margin-bottom : 20px;
+                    margin-left : 50px;
+                }
+                #productColor option {
+                    border : none;
+                    outline: none;
+                    font-size : 15px;
+                    font-family: 'Noto Sans KR', sans-serif;
+                }
+                #infoSelect {
+                    margin-top : 10px;
+                    height : 40px;
+                    border-top : 1px solid #ccc;
+                    font-size : 12px;
+                }
+                    #order-Count {
+                        width : 40px;
+                        height : 25px;
+                        /* cursor: pointer; */
+                        outline: none;
+                        border : 1px solid #ccc;
+                        margin-left : 5px;
+                    }
+                    #pName {
+                        font-size: 14px;;
+                    }
+                    .removeBtn {
+                        border : none;
+                        background-color: white;
+                        margin-left : 10px;
+                    }
+                #infoResult {
+                    border-top : 1px solid #ccc;
+                    height: 100px;
+                    padding-top : 10px;
+                    font-size : 16px;
+                    font-family: 'Noto Serif KR', serif;
+                }
+                    .shopResult {
+                        height : 50px;
+                        display: flex;
+                        justify-content: space-between;
+                        font-family: 'Noto Sans KR', sans-serif;
+                    }
+            #infoBtn {
+                margin-top : 30px;
+                height : 50px;
+                /* background-color: lightyellow; */
+                display: flex;
+                justify-content: space-around;
+            }
+                .orderBtn{
+                    width : 200px;
+                    height : 50px;
+                    text-align: center;
+                    border : 1px solid #de9564;
+                    background-color: white;
+                    border-radius : 25px;
+                }
+                .orderBtn:hover {
+                    background-color: #de9564;
+                    color : white;
+                    transition: 0.5s ease;
+                }
+    #shopMid {
+        width : 1100px;
+        height : 3000px;
+        /* background-color: lavender; */
+        margin : 0 auto;
+        margin-top : 70px;
+        border-top : 1px solid #ccc;
+        margin-bottom : 200px;
+    }
+        .product-image-desc {
+            margin-top : 100px;
+            margin-left : 50px;
+            width : 1000px;
+            max-height: 1500px;
+        }
+        .product-image-desc2 {
+            margin-top : 100px;
+            margin-left : 50px;
+            width : 1000px;
+            max-height : 1500px;
+            filter : grayscale(1);
+        }
+    #shopBtm {
+        border-top : 1px solid #ccc;
+        width : 1100px;
+        height : 370px;
+        /* background-color: lightpink; */
+        margin : 0 auto;
+        font-family : 'PT Serif', 'Noto Serif KR', serif;
+        
+    }
+        #reviewTitle {
+            margin-top : 50px;
+            width : 1100px;
+            height : 100px;
+            /* background-color: #6a6868; */
+            text-align: center;
+            font-size: 1.6em;
+        }
+
+        .boardListWrap {
+            width : 1200px;
+            height : 800px;
+        }
+        
+            /* .reviewCont {
+                width : 100%;
+                height : 300px;
+                display : block;
+                background-color: white;
+            } */
+        .bt_wrap {
+            width : 500px;
+            margin : 0 auto;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 0;
+            font-family : 'Noto Sans KR', sans-serif;
+            display: flex;
+            justify-content: space-around;
+        }
+        .bt_wrap button {
+            width : 200px;
+            height : 50px;
+            border : 1px solid #de9564;
+            border-radius: 25px;
+            font-size: 1rem;
+            background-color: white;
+            font-family: 'Noto Sans KR', sans-serif;
+        
+        }
+        .bt_wrap button:hover {
+            background-color: #de9564;
+            color : white;
+            transition: 0.5s ease;
+        }
+        .bt_wrap a:first-child {
+            margin-left: 0;
+        }
+        
+        .bt_wrap a.on {
+            background: white;
+            color: #de9564;
+        }
+        
+        .boardList {
+            width: 100%;
+            border-top: 1px solid #000;
+        }
+        
+        .boardList > div {
+            border-bottom: 1px solid #ddd;
+            font-size: 0;
+        }
+        
+        .boardList > div.top {
+            border-bottom: 1px solid #999;
+        }
+        
+        .boardList > div:last-child {
+            border-bottom: 1px solid #000;
+        }
+        
+        .boardList > div > div {
+            display: inline-block;
+            padding: 15px 0;
+            text-align: center;
+            font-size: 1rem;
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        
+        .boardList > div.top > div {
+            font-weight: 600;
+        }
+        
+        .boardList .num {
+            width: 10%;
+        }
+        
+        .boardList .title {
+            width: 60%;
+            text-align: left;
+        }
+        
+        .boardList .writer {
+            width: 10%;
+        }
+        
+        .boardList .date {
+            width: 10%;
+        }
+        
+        .boardList .count {
+            width: 10%;
+        }
+        
+        
+        input[type="checkbox"] {
+            width : 15px;
+            height : 15px;
+            /* cursor: none; */
+            appearance: none;
+            border : 1px solid #de9564;
+            transition : 0.7s ease;
+            outline: none;
+        }
+        input[type="checkbox"]:checked {
+            background: #de9564;
+            border: none;
+            transition : 0.7s ease;
+            outline : none;
+        }
+        #pageButtonContainer {
+            width : 1100px;
+            height : 100px;
+            margin : 0 auto;
+            /* background-color: silver; */
+            text-align: center;
+            margin-top: 60px;
+        }
+        .pageBtn {
+            width : 1200px;
+            height : 100px;
+            margin : 0 auto;
+            /* background-color: silver; */
+            text-align: center;
+            margin-top: 60px;
+        }
+            .prev-btn, .next-btn{
+                background-color: white;
+                width : 20px;
+                height : 20px;
+                border: none;
+                border-radius : 50%;
+                cursor: pointer;
+            }
+            .prev-btn img, .next-btn img{
+                width : 10px;
+                height : 10px;
+                opacity : .5;
+            }
+            .prev-btn:hover, .next-btn:hover {
+                background-color: #eba4746f;
+            }
+        
+            .page-numbers {
+                display: inline-block;
+                font-family: 'PT Serif', serif;
+            }
+            .page-number {
+                display: inline-block;
+                margin: 0 5px;
+                padding : 5px;
+                cursor: pointer;
+                color : #d5d4d4;
+            }
+        
+            .page-number.active {
+                font-weight: bolder;
+                color : coral
+            }
+        

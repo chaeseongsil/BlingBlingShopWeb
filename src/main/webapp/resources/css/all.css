@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Noto+Serif+KR&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Noto+Sans+KR&family=Noto+Serif+KR&family=PT+Serif&display=swap');
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    /* background-color: antiquewhite; */
+}
+body {
+    padding-top : 50px;
+}
+#container {
+    width : 1500px;
+    /* height : 2200px; */
+    margin : 0 auto;
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+.blinking{
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+a:link, a:visited {
+    color : black;
+}
+
+header {
+    width : 1500px;
+    height : 150px;
+    margin-bottom : 50px;
+    /* background-color: antiquewhite; */
+    /* position: fixed;
+    z-index: 10; */
+    /* top : 0; left : 0; */
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+main {
+    width : 1500px;
+    height : 1900px;
+    border-top : 1px solid #000000;
+    /* background-color: aquamarine; */
+}
+footer {
+    width : 1500px;
+    height : 150px;
+    border-top : 1px solid #000000;
+    /* background-color: slategray; */
+}
